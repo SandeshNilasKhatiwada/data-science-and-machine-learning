@@ -2,6 +2,8 @@ import os
 import dotenv
 import functools 
 dotenv.load_dotenv()
+import datetime
+
 print(os.getenv("API_KEY"))
 
 
@@ -16,3 +18,6 @@ def multiply(x, y):
 result = functools.reduce(multiply, a)
 print(result)
 
+
+
+print(datetime.date.today())

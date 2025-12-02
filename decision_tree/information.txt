@@ -1,0 +1,11 @@
+Entropy:
+we calculate this to make the tree node and everything. 
+Entropy always say how it is distributed more the distribution more the entropy 
+
+formula: Sumation form 1 to n - (propability()log2 propability()) this is how i could do it 
+
+
+
+Ig (information gain) = Ep(entropy of parent) - Wgain * Ec(entropy of child)
+
+
